@@ -1,2 +1,9 @@
-# openDoc
-plugin Sublime Text 3 pour ouvrir une documentation selon le langage du fichier courant
+# Plugin openDoc
+Plugin Sublime Text 3 pour ouvrir une documentation selon le langage du fichier courant
+
+## Comment s'en servir?
+Dans vos raccourcis claviers, ajoutez le raccourci suivant:  
+
+* { "keys": ["ctrl+alt+g"], "command": "open_doc", "args": {"url": "http://google.fr/#q=%s"}}
+
+Surlignez un mot dans ST3 et effectuez le raccourci ctrl+alt+g (sur Windows) pour effectuer une recherche de la selection en surbrillance sur google par exemple.
