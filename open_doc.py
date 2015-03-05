@@ -3,7 +3,7 @@
 # @Author: Mehdi-H
 # @Date:   2015-03-04 23:46:58
 # @Last Modified by:   Mehdi-H
-# @Last Modified time: 2015-03-06 00:07:46
+# @Last Modified time: 2015-03-06 00:25:58
 
 import sublime, sublime_plugin
 import webbrowser
@@ -16,7 +16,7 @@ dic = {
     "google": "https://www.google.fr/#q=%s",
     "html": "http://www.w3schools.com/jsref/dom_obj_%s.asp",
     "java": "https://search.oracle.com/search/search?q=%s",
-    "javascript" : "http://www.w3schools.com/jsref/met_%s.asp",
+    "javascript": "http://www.w3schools.com/jsref/met_%s.asp",
     "matlab": "http://fr.mathworks.com/help/search.html?qdoc=%s&submitsearch=Search",
     "php": "https://php.net/manual/fr/function.%s",
     "python": "https://docs.python.org/3/search.html?q=%s",
@@ -39,7 +39,9 @@ def getLanguage(str):
     return os.path.basename(str).split('.')[0].lower()
 
 def getOnlineLibrary(d,l):
-    if l not in d:
+    if l not in d and (l!="plain text"):
         return d["google"] + ' ' + l
+    elif l not in d:
+        return d["google"]
     else:
         return d[l]
