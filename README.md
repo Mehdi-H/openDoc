@@ -1,5 +1,5 @@
 # Plugin openDoc
-Plugin Sublime Text 3 pour ouvrir une documentation selon le langage du fichier courant
+Plugin Sublime Text 3 pour ouvrir une documentation selon le langage du fichier courant.
 
 ## Comment s'en servir?
 Dans vos raccourcis claviers (Preferences > Key Bindings - User), ajoutez le raccourci suivant:  

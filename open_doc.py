@@ -1,3 +1,10 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Author: Mehdi-H
+# @Date:   2015-03-04 23:46:58
+# @Last Modified by:   Mehdi-H
+# @Last Modified time: 2015-03-06 00:07:46
+
 import sublime, sublime_plugin
 import webbrowser
 import os
