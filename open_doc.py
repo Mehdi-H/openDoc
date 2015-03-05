@@ -11,9 +11,7 @@ dic = {
 }
 
 class OpenDocCommand(sublime_plugin.TextCommand):
-
     def run(self, edit):
-
         selection = ""
         for region in self.view.sel():
             selection += self.view.substr(region)
