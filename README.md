@@ -2,7 +2,7 @@
 Plugin Sublime Text 3 pour ouvrir une documentation selon le langage du fichier courant
 
 ## Comment s'en servir?
-Dans vos raccourcis claviers, ajoutez le raccourci suivant:  
+Dans vos raccourcis claviers (Preferences > Key Bindings - User), ajoutez le raccourci suivant:  
 
 * { "keys": ["ctrl+alt+g"], "command": "open_doc"}
 
@@ -15,4 +15,4 @@ Pour le moment, seul les langages suivants sont supportés:
 * Php  
 * HTML  
 * CSS  
-* SCSS
+* SCSS  
