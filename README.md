@@ -15,7 +15,7 @@ Pour le moment, seul les langages suivants sont supportés:
  * Google (recherche Google pour les langages non supportés pour l'instant)  
  * Html  
  * Java  
- * Javasc  
+ * Javascript  
  * Matlab  
  * Php   
  * Python  
