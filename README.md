@@ -11,8 +11,13 @@ Surlignez un mot dans ST3 et effectuez le raccourci ctrl+alt+g (sur Windows) pou
 ## Quels langages sont supportés?
 Pour le moment, seul les langages suivants sont supportés:  
 
-* Python  
-* Php  
-* HTML  
-* CSS  
-* SCSS  
+ * Css   
+ * Google  
+ * Html  
+ * Java  
+ * Javasc  
+ * Matlab  
+ * Php   
+ * Python  
+ * Sass  
+ * Scss  
