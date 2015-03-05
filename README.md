@@ -12,7 +12,7 @@ Surlignez un mot dans ST3 et effectuez le raccourci ctrl+alt+g (sur Windows) pou
 Pour le moment, seul les langages suivants sont supportés:  
 
  * Css   
- * Google  
+ * Google (recherche Google pour les langages non supportés pour l'instant)  
  * Html  
  * Java  
  * Javasc  
